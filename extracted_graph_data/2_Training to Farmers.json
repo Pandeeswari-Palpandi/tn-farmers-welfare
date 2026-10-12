@@ -1,0 +1,226 @@
+{
+    "nodes": [
+        {
+            "name": "Training to Farmers",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Rs.300 per farmer for 2 days",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Coimbatore",
+            "label": "Criterion"
+        },
+        {
+            "name": "Dindigul",
+            "label": "Criterion"
+        },
+        {
+            "name": "Erode",
+            "label": "Criterion"
+        },
+        {
+            "name": "Dharmapuri",
+            "label": "Criterion"
+        },
+        {
+            "name": "Krishnagiri",
+            "label": "Criterion"
+        },
+        {
+            "name": "Namakkal",
+            "label": "Criterion"
+        },
+        {
+            "name": "Perambalur",
+            "label": "Criterion"
+        },
+        {
+            "name": "Virudhunagar",
+            "label": "Criterion"
+        },
+        {
+            "name": "Theni",
+            "label": "Criterion"
+        },
+        {
+            "name": "Villupuram",
+            "label": "Criterion"
+        },
+        {
+            "name": "Vellore",
+            "label": "Criterion"
+        },
+        {
+            "name": "Salem",
+            "label": "Criterion"
+        },
+        {
+            "name": "Pudukkottai",
+            "label": "Criterion"
+        },
+        {
+            "name": "Madurai",
+            "label": "Criterion"
+        },
+        {
+            "name": "Sivagangai",
+            "label": "Criterion"
+        },
+        {
+            "name": "Trichy",
+            "label": "Criterion"
+        },
+        {
+            "name": "Tirunelveli",
+            "label": "Criterion"
+        },
+        {
+            "name": "Thoothukudi",
+            "label": "Criterion"
+        },
+        {
+            "name": "Small/Marginal farmers",
+            "label": "Criterion"
+        },
+        {
+            "name": "SC/ST farmers",
+            "label": "Criterion"
+        },
+        {
+            "name": "Women farmers/women groups",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Training to Farmers",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Rs.300 per farmer for 2 days",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Coimbatore",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Dindigul",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Erode",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Dharmapuri",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Krishnagiri",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Namakkal",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Perambalur",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Virudhunagar",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Theni",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Villupuram",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Vellore",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Salem",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Pudukkottai",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Madurai",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Sivagangai",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Trichy",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Tirunelveli",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Thoothukudi",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Small/Marginal farmers",
+            "relation": "PREFERENCES"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "SC/ST farmers",
+            "relation": "PREFERENCES"
+        },
+        {
+            "source": "Training to Farmers",
+            "target": "Women farmers/women groups",
+            "relation": "PREFERENCES"
+        }
+    ]
+}

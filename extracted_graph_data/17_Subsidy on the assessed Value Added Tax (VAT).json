@@ -1,0 +1,37 @@
+{
+    "nodes": [
+        {
+            "name": "Subsidy on the assessed Value Added Tax (VAT)",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Manufacturers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Assessed Value Added Tax (VAT)",
+            "label": "Subsidy"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Subsidy on the assessed Value Added Tax (VAT)",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Subsidy on the assessed Value Added Tax (VAT)",
+            "target": "Manufacturers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Subsidy on the assessed Value Added Tax (VAT)",
+            "target": "Assessed Value Added Tax (VAT)",
+            "relation": "REQUIRES"
+        }
+    ]
+}

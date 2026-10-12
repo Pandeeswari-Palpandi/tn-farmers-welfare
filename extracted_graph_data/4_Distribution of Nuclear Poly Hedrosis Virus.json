@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Distribution of Nuclear Poly Hedrosis Virus",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Nuclear Poly Hedrosis Virus",
+            "label": "Equipment"
+        },
+        {
+            "name": "50% cost of input limited to Rs. 250/- ha.",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Distribution of Nuclear Poly Hedrosis Virus",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Distribution of Nuclear Poly Hedrosis Virus",
+            "target": "Farmers",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Distribution of Nuclear Poly Hedrosis Virus",
+            "target": "Subsidy",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Distribution of Nuclear Poly Hedrosis Virus",
+            "target": "Nuclear Poly Hedrosis Virus",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Subsidy",
+            "target": "50% cost of input limited to Rs. 250/- ha.",
+            "relation": "HAS_CRITERION"
+        }
+    ]
+}

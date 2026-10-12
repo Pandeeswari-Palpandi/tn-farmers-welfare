@@ -1,0 +1,73 @@
+{
+    "nodes": [
+        {
+            "name": "Production of Certified Seeds",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Rs.1000/- per quintal",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Assistant Agricultural officer at the Village Level",
+            "label": "Criterion"
+        },
+        {
+            "name": "Agricultural Officer / Deputy Agricultural Officer at the Block Level",
+            "label": "Criterion"
+        },
+        {
+            "name": "Assistant Director of Agriculture at the Block Level",
+            "label": "Criterion"
+        },
+        {
+            "name": "Joint Director of Agriculture at the District Level",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Production of Certified Seeds",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Production of Certified Seeds",
+            "target": "Farmers",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Production of Certified Seeds",
+            "target": "Rs.1000/- per quintal",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Production of Certified Seeds",
+            "target": "Assistant Agricultural officer at the Village Level",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Production of Certified Seeds",
+            "target": "Agricultural Officer / Deputy Agricultural Officer at the Block Level",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Production of Certified Seeds",
+            "target": "Assistant Director of Agriculture at the Block Level",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Production of Certified Seeds",
+            "target": "Joint Director of Agriculture at the District Level",
+            "relation": "REQUIRES"
+        }
+    ]
+}

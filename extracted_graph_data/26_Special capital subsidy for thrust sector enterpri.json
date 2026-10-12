@@ -1,0 +1,154 @@
+{
+    "nodes": [
+        {
+            "name": "Special capital subsidy for thrust sector enterprises",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Manufacturers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "15% of Plant and Machinery value",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Electrical and Electronics Industry",
+            "label": "Equipment"
+        },
+        {
+            "name": "Leather and Leather goods",
+            "label": "Equipment"
+        },
+        {
+            "name": "Auto parts and components",
+            "label": "Equipment"
+        },
+        {
+            "name": "Drugs and Pharmaceuticals",
+            "label": "Equipment"
+        },
+        {
+            "name": "Solar Energy Equipment",
+            "label": "Equipment"
+        },
+        {
+            "name": "Gold and Diamond Jewellery for exports",
+            "label": "Equipment"
+        },
+        {
+            "name": "Pollution Control Equipments",
+            "label": "Equipment"
+        },
+        {
+            "name": "Sports Goods and Accessories",
+            "label": "Equipment"
+        },
+        {
+            "name": "Cost effective building material",
+            "label": "Equipment"
+        },
+        {
+            "name": "Readymade Garments",
+            "label": "Equipment"
+        },
+        {
+            "name": "Food Processing",
+            "label": "Equipment"
+        },
+        {
+            "name": "Plastic",
+            "label": "Equipment"
+        },
+        {
+            "name": "Rubber",
+            "label": "Equipment"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Manufacturers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "15% of Plant and Machinery value",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Electrical and Electronics Industry",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Leather and Leather goods",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Auto parts and components",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Drugs and Pharmaceuticals",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Solar Energy Equipment",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Gold and Diamond Jewellery for exports",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Pollution Control Equipments",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Sports Goods and Accessories",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Cost effective building material",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Readymade Garments",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Food Processing",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Plastic",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Special capital subsidy for thrust sector enterprises",
+            "target": "Rubber",
+            "relation": "COVERS"
+        }
+    ]
+}

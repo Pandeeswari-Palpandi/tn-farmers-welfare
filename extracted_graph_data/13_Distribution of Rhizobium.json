@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Distribution of Rhizobium",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Rhizobium",
+            "label": "Equipment"
+        },
+        {
+            "name": "Eligibility Criteria",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Distribution of Rhizobium",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Distribution of Rhizobium",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Distribution of Rhizobium",
+            "target": "Subsidy",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Subsidy",
+            "target": "Rhizobium",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Distribution of Rhizobium",
+            "target": "Eligibility Criteria",
+            "relation": "REQUIRES"
+        }
+    ]
+}

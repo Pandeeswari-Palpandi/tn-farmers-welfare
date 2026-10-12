@@ -1,0 +1,82 @@
+{
+    "nodes": [
+        {
+            "name": "Integrated Pest Management Demonstration cum Training",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Rs.17000/- for 30 Farmers",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Demonstration of 40 Ha. each and Training per Farmers Field School",
+            "label": "Equipment"
+        },
+        {
+            "name": "Assistant Agricultural officer at the Village Level",
+            "label": "Criterion"
+        },
+        {
+            "name": "Agricultural Officer / Deputy Agricultural Officer at the Block Level",
+            "label": "Criterion"
+        },
+        {
+            "name": "Assistant Director of Agriculture at the Block Level",
+            "label": "Criterion"
+        },
+        {
+            "name": "Joint Director of Agriculture at the District Level",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Integrated Pest Management Demonstration cum Training",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Integrated Pest Management Demonstration cum Training",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Integrated Pest Management Demonstration cum Training",
+            "target": "Rs.17000/- for 30 Farmers",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Integrated Pest Management Demonstration cum Training",
+            "target": "Demonstration of 40 Ha. each and Training per Farmers Field School",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Integrated Pest Management Demonstration cum Training",
+            "target": "Assistant Agricultural officer at the Village Level",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Integrated Pest Management Demonstration cum Training",
+            "target": "Agricultural Officer / Deputy Agricultural Officer at the Block Level",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Integrated Pest Management Demonstration cum Training",
+            "target": "Assistant Director of Agriculture at the Block Level",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Integrated Pest Management Demonstration cum Training",
+            "target": "Joint Director of Agriculture at the District Level",
+            "relation": "REQUIRES"
+        }
+    ]
+}

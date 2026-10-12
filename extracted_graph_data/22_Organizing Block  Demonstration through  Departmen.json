@@ -1,0 +1,226 @@
+{
+    "nodes": [
+        {
+            "name": "Organizing Block Demonstration",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Rs.4000/- per demonstration of 1 ha.",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Small/Marginal farmers",
+            "label": "Criterion"
+        },
+        {
+            "name": "SC/ST farmers",
+            "label": "Criterion"
+        },
+        {
+            "name": "Women farmers/women groups",
+            "label": "Criterion"
+        },
+        {
+            "name": "Coimbatore",
+            "label": "Criterion"
+        },
+        {
+            "name": "Dindigul",
+            "label": "Criterion"
+        },
+        {
+            "name": "Erode",
+            "label": "Criterion"
+        },
+        {
+            "name": "Dharmapuri",
+            "label": "Criterion"
+        },
+        {
+            "name": "Krishnagiri",
+            "label": "Criterion"
+        },
+        {
+            "name": "Namakkal",
+            "label": "Criterion"
+        },
+        {
+            "name": "Perambalur",
+            "label": "Criterion"
+        },
+        {
+            "name": "Virudhunagar",
+            "label": "Criterion"
+        },
+        {
+            "name": "Theni",
+            "label": "Criterion"
+        },
+        {
+            "name": "Villupuram",
+            "label": "Criterion"
+        },
+        {
+            "name": "Vellore",
+            "label": "Criterion"
+        },
+        {
+            "name": "Salem",
+            "label": "Criterion"
+        },
+        {
+            "name": "Pudukkottai",
+            "label": "Criterion"
+        },
+        {
+            "name": "Madurai",
+            "label": "Criterion"
+        },
+        {
+            "name": "Sivagangai",
+            "label": "Criterion"
+        },
+        {
+            "name": "Trichy",
+            "label": "Criterion"
+        },
+        {
+            "name": "Tirunelveli",
+            "label": "Criterion"
+        },
+        {
+            "name": "Thoothukudi",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Rs.4000/- per demonstration of 1 ha.",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Small/Marginal farmers",
+            "relation": "PREFERENCES"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "SC/ST farmers",
+            "relation": "PREFERENCES"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Women farmers/women groups",
+            "relation": "PREFERENCES"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Coimbatore",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Dindigul",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Erode",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Dharmapuri",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Krishnagiri",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Namakkal",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Perambalur",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Virudhunagar",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Theni",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Villupuram",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Vellore",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Salem",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Pudukkottai",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Madurai",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Sivagangai",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Trichy",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Tirunelveli",
+            "relation": "ELIGIBLE_IN"
+        },
+        {
+            "source": "Organizing Block Demonstration",
+            "target": "Thoothukudi",
+            "relation": "ELIGIBLE_IN"
+        }
+    ]
+}

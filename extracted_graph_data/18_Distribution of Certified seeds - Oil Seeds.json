@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Distribution of Certified seeds - Oil Seeds",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Certified seeds",
+            "label": "Equipment"
+        },
+        {
+            "name": "Foundation and Certified Class seeds",
+            "label": "Equipment"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Distribution of Certified seeds - Oil Seeds",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Distribution of Certified seeds - Oil Seeds",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Distribution of Certified seeds - Oil Seeds",
+            "target": "Subsidy",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Subsidy",
+            "target": "Certified seeds",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Subsidy",
+            "target": "Foundation and Certified Class seeds",
+            "relation": "COVERS"
+        }
+    ]
+}

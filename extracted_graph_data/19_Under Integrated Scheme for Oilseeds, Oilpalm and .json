@@ -1,0 +1,136 @@
+{
+    "nodes": [
+        {
+            "name": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy for Foundation and Certified Seeds",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Subsidy for Certified Seeds",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Subsidy for Compact Block Demonstration",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Subsidy for Rhizobium Packets",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Subsidy for Integrated Pest Management Demonstration",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Subsidy for Gypsum",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Subsidy for Plant Protection Equipment",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Training of Farmers on Oilseeds Production Technologies",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Subsidy for Bio-Pesticides",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Subsidy for Weedicides",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Subsidy for Water Carrying Pipes",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Subsidy for Combined Nutrient Spray",
+            "label": "Subsidy"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Subsidy for Foundation and Certified Seeds",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Subsidy for Certified Seeds",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Subsidy for Compact Block Demonstration",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Subsidy for Rhizobium Packets",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Subsidy for Integrated Pest Management Demonstration",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Subsidy for Gypsum",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Subsidy for Plant Protection Equipment",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Training of Farmers on Oilseeds Production Technologies",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Subsidy for Bio-Pesticides",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Subsidy for Weedicides",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Subsidy for Water Carrying Pipes",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+            "target": "Subsidy for Combined Nutrient Spray",
+            "relation": "OFFERS"
+        }
+    ]
+}

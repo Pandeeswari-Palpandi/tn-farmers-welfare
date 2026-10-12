@@ -1,0 +1,73 @@
+{
+    "nodes": [
+        {
+            "name": "Visit of Contract Farming farmers to the Research Stations in Karnataka",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Grants",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Assistant Agricultural officer at the Village Level",
+            "label": "Criterion"
+        },
+        {
+            "name": "Agricultural Officer / Deputy Agricultural Officer at the Block Level",
+            "label": "Criterion"
+        },
+        {
+            "name": "Assistant Director of Agriculture at the Block Level",
+            "label": "Criterion"
+        },
+        {
+            "name": "Joint Director of Agriculture at the District Level",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Visit of Contract Farming farmers to the Research Stations in Karnataka",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Visit of Contract Farming farmers to the Research Stations in Karnataka",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Visit of Contract Farming farmers to the Research Stations in Karnataka",
+            "target": "Grants",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Visit of Contract Farming farmers to the Research Stations in Karnataka",
+            "target": "Assistant Agricultural officer at the Village Level",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Visit of Contract Farming farmers to the Research Stations in Karnataka",
+            "target": "Agricultural Officer / Deputy Agricultural Officer at the Block Level",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Visit of Contract Farming farmers to the Research Stations in Karnataka",
+            "target": "Assistant Director of Agriculture at the Block Level",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Visit of Contract Farming farmers to the Research Stations in Karnataka",
+            "target": "Joint Director of Agriculture at the District Level",
+            "relation": "REQUIRES"
+        }
+    ]
+}

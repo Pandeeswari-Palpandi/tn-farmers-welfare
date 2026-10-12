@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Term loan obtained under NEF scheme of TIIC",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Manufacturers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "3% of the interest on term loan",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Financial Institutions",
+            "label": "Equipment"
+        },
+        {
+            "name": "Eligibility criteria",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Term loan obtained under NEF scheme of TIIC",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Term loan obtained under NEF scheme of TIIC",
+            "target": "Manufacturers",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Term loan obtained under NEF scheme of TIIC",
+            "target": "3% of the interest on term loan",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Manufacturers",
+            "target": "Financial Institutions",
+            "relation": "AVAILS"
+        },
+        {
+            "source": "Term loan obtained under NEF scheme of TIIC",
+            "target": "Eligibility criteria",
+            "relation": "HAS"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+define user express greeting
+  "Hello"
+  "Hi"
+  "Good morning"
+
+define bot express greeting
+  "Hello! I am your Tamil Nadu Agricultural Schemes assistant powered by your Knowledge Graph. How can I help you today?"
+
+define user ask off topic
+  "Write a python script"
+  "Tell me a joke"
+  "Who won the cricket match?"
+  "What is the weather?"
+
+define bot refuse off topic
+  "I am specialized strictly in Tamil Nadu agricultural schemes and cannot answer questions outside this topic."
+
+define flow
+  user ask off topic
+  bot refuse off topic
+  stop

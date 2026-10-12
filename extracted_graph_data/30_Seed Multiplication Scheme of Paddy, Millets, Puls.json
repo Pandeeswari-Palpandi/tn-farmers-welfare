@@ -1,0 +1,91 @@
+{
+    "nodes": [
+        {
+            "name": "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Seed Processing Unit",
+            "label": "Equipment"
+        },
+        {
+            "name": "Seed Certification Officer",
+            "label": "Criterion"
+        },
+        {
+            "name": "Assistant Agricultural Officer",
+            "label": "Criterion"
+        },
+        {
+            "name": "Agricultural Officer / Deputy Agricultural Officer",
+            "label": "Criterion"
+        },
+        {
+            "name": "Assistant Director of Agriculture",
+            "label": "Criterion"
+        },
+        {
+            "name": "Joint Director of Agriculture",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+            "target": "Subsidy",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Farmers",
+            "target": "Seed Processing Unit",
+            "relation": "USES"
+        },
+        {
+            "source": "Seed Processing Unit",
+            "target": "Seed Certification Officer",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+            "target": "Assistant Agricultural Officer",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+            "target": "Agricultural Officer / Deputy Agricultural Officer",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+            "target": "Assistant Director of Agriculture",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+            "target": "Joint Director of Agriculture",
+            "relation": "REQUIRES"
+        }
+    ]
+}

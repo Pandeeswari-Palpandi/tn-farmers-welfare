@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Manufacturers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "50% of stamp duty and registration charges",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Industrial Estates developed by TANSIDCO or Govt.",
+            "label": "Equipment"
+        },
+        {
+            "name": "All new Micro and Small Enterprises",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises",
+            "target": "Manufacturers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises",
+            "target": "50% of stamp duty and registration charges",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises",
+            "target": "Industrial Estates developed by TANSIDCO or Govt.",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises",
+            "target": "All new Micro and Small Enterprises",
+            "relation": "ELIGIBLE_FOR"
+        }
+    ]
+}

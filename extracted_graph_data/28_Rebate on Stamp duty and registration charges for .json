@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Manufacturers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "50% rebate on stamp duty and registration charges",
+            "label": "Subsidy"
+        },
+        {
+            "name": "SIPCOT",
+            "label": "Equipment"
+        },
+        {
+            "name": "Outside a radius of 30 kms from Chennai City Centre",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates",
+            "target": "Manufacturers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates",
+            "target": "50% rebate on stamp duty and registration charges",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Manufacturers",
+            "target": "SIPCOT",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates",
+            "target": "Outside a radius of 30 kms from Chennai City Centre",
+            "relation": "HAS_CRITERION"
+        }
+    ]
+}

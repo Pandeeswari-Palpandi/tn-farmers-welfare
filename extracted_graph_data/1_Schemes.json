@@ -1,0 +1,109 @@
+{
+    "nodes": [
+        {
+            "name": "Schemes",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "BC, MBC & Minorities Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Co-operation, Food and Consumer Protection Department",
+            "label": "Department"
+        },
+        {
+            "name": "Finance Department",
+            "label": "Department"
+        },
+        {
+            "name": "Handlooms, Handicrafts, Textiles and Khadi Department",
+            "label": "Department"
+        },
+        {
+            "name": "Labour Welfare and Skill Development Department",
+            "label": "Department"
+        },
+        {
+            "name": "Micro, Small and Medium Enterprises Department",
+            "label": "Department"
+        },
+        {
+            "name": "Revenue and Disaster Management Department",
+            "label": "Department"
+        },
+        {
+            "name": "Social Justice Department",
+            "label": "Department"
+        },
+        {
+            "name": "Tamil Dev. and Information Department",
+            "label": "Department"
+        },
+        {
+            "name": "Tourism, Culture and Special Initiatives Department",
+            "label": "Department"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Schemes",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Schemes",
+            "target": "BC, MBC & Minorities Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Schemes",
+            "target": "Co-operation, Food and Consumer Protection Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Schemes",
+            "target": "Finance Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Schemes",
+            "target": "Handlooms, Handicrafts, Textiles and Khadi Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Schemes",
+            "target": "Labour Welfare and Skill Development Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Schemes",
+            "target": "Micro, Small and Medium Enterprises Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Schemes",
+            "target": "Revenue and Disaster Management Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Schemes",
+            "target": "Social Justice Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Schemes",
+            "target": "Tamil Dev. and Information Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Schemes",
+            "target": "Tourism, Culture and Special Initiatives Department",
+            "relation": "OFFERS"
+        }
+    ]
+}

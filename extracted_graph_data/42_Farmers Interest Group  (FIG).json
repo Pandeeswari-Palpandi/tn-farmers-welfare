@@ -1,0 +1,82 @@
+{
+    "nodes": [
+        {
+            "name": "Farmers Interest Group (FIG)",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Grants",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Office Equipment",
+            "label": "Equipment"
+        },
+        {
+            "name": "Technical Bulletins",
+            "label": "Equipment"
+        },
+        {
+            "name": "Library",
+            "label": "Equipment"
+        },
+        {
+            "name": "ID Cards",
+            "label": "Equipment"
+        },
+        {
+            "name": "District Level Meeting",
+            "label": "Equipment"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Farmers Interest Group (FIG)",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Farmers Interest Group (FIG)",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Farmers Interest Group (FIG)",
+            "target": "Grants",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Grants",
+            "target": "Office Equipment",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Grants",
+            "target": "Technical Bulletins",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Grants",
+            "target": "Library",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Grants",
+            "target": "ID Cards",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Grants",
+            "target": "District Level Meeting",
+            "relation": "COVERS"
+        }
+    ]
+}

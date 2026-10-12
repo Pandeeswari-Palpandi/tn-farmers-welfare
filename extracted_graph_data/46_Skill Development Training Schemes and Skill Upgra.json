@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Skill Development Training Schemes and Skill Upgradation Training Schemes",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Manufacturers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Reimbursement up to 50% of the tuition fees",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Skill Development Training",
+            "label": "Equipment"
+        },
+        {
+            "name": "Skill Upgradation Training",
+            "label": "Equipment"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Skill Development Training Schemes and Skill Upgradation Training Schemes",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Skill Development Training Schemes and Skill Upgradation Training Schemes",
+            "target": "Manufacturers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Skill Development Training Schemes and Skill Upgradation Training Schemes",
+            "target": "Reimbursement up to 50% of the tuition fees",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Skill Development Training Schemes and Skill Upgradation Training Schemes",
+            "target": "Skill Development Training",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Skill Development Training Schemes and Skill Upgradation Training Schemes",
+            "target": "Skill Upgradation Training",
+            "relation": "INCLUDES"
+        }
+    ]
+}

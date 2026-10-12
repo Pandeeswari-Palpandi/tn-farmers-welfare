@@ -1,0 +1,64 @@
+{
+    "nodes": [
+        {
+            "name": "Production of Foundation Seeds",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Pulses crop",
+            "label": "Equipment"
+        },
+        {
+            "name": "SC/ST",
+            "label": "Criterion"
+        },
+        {
+            "name": "Farm Women",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Production of Foundation Seeds",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Production of Foundation Seeds",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Production of Foundation Seeds",
+            "target": "Subsidy",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Subsidy",
+            "target": "Pulses crop",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Farmers",
+            "target": "SC/ST",
+            "relation": "ELIGIBLE"
+        },
+        {
+            "source": "Farmers",
+            "target": "Farm Women",
+            "relation": "ELIGIBLE"
+        }
+    ]
+}

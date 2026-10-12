@@ -1,0 +1,181 @@
+{
+    "nodes": [
+        {
+            "name": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy",
+            "label": "Subsidy"
+        },
+        {
+            "name": "New crops/ varieties",
+            "label": "Equipment"
+        },
+        {
+            "name": "New technologies in Agriculture",
+            "label": "Equipment"
+        },
+        {
+            "name": "Dryland Horticulture",
+            "label": "Equipment"
+        },
+        {
+            "name": "Agro Forestry",
+            "label": "Equipment"
+        },
+        {
+            "name": "Household production system",
+            "label": "Equipment"
+        },
+        {
+            "name": "INM",
+            "label": "Equipment"
+        },
+        {
+            "name": "IPM",
+            "label": "Equipment"
+        },
+        {
+            "name": "Fodder development",
+            "label": "Equipment"
+        },
+        {
+            "name": "Organic farming",
+            "label": "Equipment"
+        },
+        {
+            "name": "Multiple cropping",
+            "label": "Equipment"
+        },
+        {
+            "name": "Improved inter cropping seed village concept",
+            "label": "Equipment"
+        },
+        {
+            "name": "Fisheries development",
+            "label": "Equipment"
+        },
+        {
+            "name": "Sericulture",
+            "label": "Equipment"
+        },
+        {
+            "name": "Back yard poultry",
+            "label": "Equipment"
+        },
+        {
+            "name": "Livestock management",
+            "label": "Equipment"
+        },
+        {
+            "name": "Micro enterprises",
+            "label": "Equipment"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Subsidy",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "New crops/ varieties",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "New technologies in Agriculture",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Dryland Horticulture",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Agro Forestry",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Household production system",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "INM",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "IPM",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Fodder development",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Organic farming",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Multiple cropping",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Improved inter cropping seed village concept",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Fisheries development",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Sericulture",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Back yard poultry",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Livestock management",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farm Production System and micro enterprises - Sponsored By State Govt",
+            "target": "Micro enterprises",
+            "relation": "INCLUDES"
+        }
+    ]
+}

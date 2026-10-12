@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "name": "Distribution of Rhizobium Packets - Oilseeds",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "50% subsidy or Rs.100/- per ha",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Assistant Agricultural officer",
+            "label": "Equipment"
+        },
+        {
+            "name": "Agricultural Officer / Deputy Agricultural Officer",
+            "label": "Equipment"
+        },
+        {
+            "name": "Assistant Director of Agriculture",
+            "label": "Equipment"
+        },
+        {
+            "name": "Joint Director of Agriculture",
+            "label": "Equipment"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Distribution of Rhizobium Packets - Oilseeds",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Distribution of Rhizobium Packets - Oilseeds",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Distribution of Rhizobium Packets - Oilseeds",
+            "target": "50% subsidy or Rs.100/- per ha",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Farmers",
+            "target": "Distribution of Rhizobium Packets - Oilseeds",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Rhizobium Packets - Oilseeds",
+            "target": "Assistant Agricultural officer",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Rhizobium Packets - Oilseeds",
+            "target": "Agricultural Officer / Deputy Agricultural Officer",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Rhizobium Packets - Oilseeds",
+            "target": "Assistant Director of Agriculture",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Rhizobium Packets - Oilseeds",
+            "target": "Joint Director of Agriculture",
+            "relation": "REQUIRES"
+        }
+    ]
+}

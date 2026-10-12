@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Distribution of Gypsum",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Gypsum",
+            "label": "Equipment"
+        },
+        {
+            "name": "Eligibility Criteria",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Distribution of Gypsum",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Distribution of Gypsum",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Distribution of Gypsum",
+            "target": "Subsidy",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Subsidy",
+            "target": "Gypsum",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Distribution of Gypsum",
+            "target": "Eligibility Criteria",
+            "relation": "REQUIRES"
+        }
+    ]
+}

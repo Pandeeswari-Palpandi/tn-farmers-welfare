@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Distribution of Soil Health card",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Soil Sample Testing",
+            "label": "Equipment"
+        },
+        {
+            "name": "Soil Health Card",
+            "label": "Equipment"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Distribution of Soil Health card",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Distribution of Soil Health card",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Distribution of Soil Health card",
+            "target": "Subsidy",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Farmers",
+            "target": "Soil Sample Testing",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Soil Sample Testing",
+            "target": "Soil Health Card",
+            "relation": "PROVIDES"
+        }
+    ]
+}

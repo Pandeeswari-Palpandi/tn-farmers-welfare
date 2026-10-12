@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Term loan obtained for ISO Certification/R&D under NSICTANSIDCO Consortium",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Manufacturers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "3% of the interest on term loan",
+            "label": "Subsidy"
+        },
+        {
+            "name": "ISO Certification",
+            "label": "Equipment"
+        },
+        {
+            "name": "R&D",
+            "label": "Equipment"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Term loan obtained for ISO Certification/R&D under NSICTANSIDCO Consortium",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Term loan obtained for ISO Certification/R&D under NSICTANSIDCO Consortium",
+            "target": "Manufacturers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Term loan obtained for ISO Certification/R&D under NSICTANSIDCO Consortium",
+            "target": "3% of the interest on term loan",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Term loan obtained for ISO Certification/R&D under NSICTANSIDCO Consortium",
+            "target": "ISO Certification",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Term loan obtained for ISO Certification/R&D under NSICTANSIDCO Consortium",
+            "target": "R&D",
+            "relation": "REQUIRES"
+        }
+    ]
+}

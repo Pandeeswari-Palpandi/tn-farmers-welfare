@@ -1,0 +1,37 @@
+{
+    "nodes": [
+        {
+            "name": "Unemployed Youth Employment Generation Programme (UYEGP)",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Manufacturers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy",
+            "label": "Subsidy"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Unemployed Youth Employment Generation Programme (UYEGP)",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Unemployed Youth Employment Generation Programme (UYEGP)",
+            "target": "Manufacturers",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Unemployed Youth Employment Generation Programme (UYEGP)",
+            "target": "Subsidy",
+            "relation": "INCLUDES"
+        }
+    ]
+}

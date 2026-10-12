@@ -1,0 +1,82 @@
+{
+    "nodes": [
+        {
+            "name": "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Manufacturers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "20% of the area",
+            "label": "Subsidy"
+        },
+        {
+            "name": "SIPCOT Industrial Estates",
+            "label": "Equipment"
+        },
+        {
+            "name": "Income",
+            "label": "Criterion"
+        },
+        {
+            "name": "Age From",
+            "label": "Criterion"
+        },
+        {
+            "name": "Age To",
+            "label": "Criterion"
+        },
+        {
+            "name": "Community",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+            "target": "Manufacturers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+            "target": "20% of the area",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+            "target": "SIPCOT Industrial Estates",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+            "target": "Income",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+            "target": "Age From",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+            "target": "Age To",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+            "target": "Community",
+            "relation": "REQUIRES"
+        }
+    ]
+}

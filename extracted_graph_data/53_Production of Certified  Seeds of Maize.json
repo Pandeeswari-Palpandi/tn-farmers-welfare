@@ -1,0 +1,73 @@
+{
+    "nodes": [
+        {
+            "name": "Production of Certified Seeds of Maize",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Certified Seeds of Maize",
+            "label": "Equipment"
+        },
+        {
+            "name": "Small/Marginal farmers",
+            "label": "Criterion"
+        },
+        {
+            "name": "SC/ST farmers",
+            "label": "Criterion"
+        },
+        {
+            "name": "Women farmers/women groups",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Production of Certified Seeds of Maize",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Production of Certified Seeds of Maize",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Production of Certified Seeds of Maize",
+            "target": "Subsidy",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Subsidy",
+            "target": "Certified Seeds of Maize",
+            "relation": "APPLIES_TO"
+        },
+        {
+            "source": "Production of Certified Seeds of Maize",
+            "target": "Small/Marginal farmers",
+            "relation": "PREFERENCES"
+        },
+        {
+            "source": "Production of Certified Seeds of Maize",
+            "target": "SC/ST farmers",
+            "relation": "PREFERENCES"
+        },
+        {
+            "source": "Production of Certified Seeds of Maize",
+            "target": "Women farmers/women groups",
+            "relation": "PREFERENCES"
+        }
+    ]
+}

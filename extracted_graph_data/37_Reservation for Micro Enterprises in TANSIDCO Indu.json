@@ -1,0 +1,46 @@
+{
+    "nodes": [
+        {
+            "name": "Reservation for Micro Enterprises in TANSIDCO Industrial Estates",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Manufacturers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "30% of the area",
+            "label": "Subsidy"
+        },
+        {
+            "name": "SIDCO",
+            "label": "Equipment"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Reservation for Micro Enterprises in TANSIDCO Industrial Estates",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Reservation for Micro Enterprises in TANSIDCO Industrial Estates",
+            "target": "Manufacturers",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Reservation for Micro Enterprises in TANSIDCO Industrial Estates",
+            "target": "30% of the area",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Manufacturers",
+            "target": "SIDCO",
+            "relation": "REQUIRES"
+        }
+    ]
+}

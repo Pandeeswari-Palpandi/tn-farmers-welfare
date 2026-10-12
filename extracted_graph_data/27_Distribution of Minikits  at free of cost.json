@@ -1,0 +1,199 @@
+{
+    "nodes": [
+        {
+            "name": "Distribution of Minikits at free of cost",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Grants",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Coimbatore",
+            "label": "Criterion"
+        },
+        {
+            "name": "Dindigul",
+            "label": "Criterion"
+        },
+        {
+            "name": "Erode",
+            "label": "Criterion"
+        },
+        {
+            "name": "Dharmapuri",
+            "label": "Criterion"
+        },
+        {
+            "name": "Krishnagiri",
+            "label": "Criterion"
+        },
+        {
+            "name": "Namakkal",
+            "label": "Criterion"
+        },
+        {
+            "name": "Perambalur",
+            "label": "Criterion"
+        },
+        {
+            "name": "Virudhunagar",
+            "label": "Criterion"
+        },
+        {
+            "name": "Theni",
+            "label": "Criterion"
+        },
+        {
+            "name": "Villupuram",
+            "label": "Criterion"
+        },
+        {
+            "name": "Vellore",
+            "label": "Criterion"
+        },
+        {
+            "name": "Salem",
+            "label": "Criterion"
+        },
+        {
+            "name": "Pudukkottai",
+            "label": "Criterion"
+        },
+        {
+            "name": "Madurai",
+            "label": "Criterion"
+        },
+        {
+            "name": "Sivagangai",
+            "label": "Criterion"
+        },
+        {
+            "name": "Trichy",
+            "label": "Criterion"
+        },
+        {
+            "name": "Tirunelveli",
+            "label": "Criterion"
+        },
+        {
+            "name": "Thoothukudi",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Grants",
+            "relation": "PROVIDES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Coimbatore",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Dindigul",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Erode",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Dharmapuri",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Krishnagiri",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Namakkal",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Perambalur",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Virudhunagar",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Theni",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Villupuram",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Vellore",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Salem",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Pudukkottai",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Madurai",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Sivagangai",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Trichy",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Tirunelveli",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Distribution of Minikits at free of cost",
+            "target": "Thoothukudi",
+            "relation": "REQUIRES"
+        }
+    ]
+}

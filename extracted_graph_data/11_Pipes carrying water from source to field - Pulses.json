@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Pipes carrying water from source to field - Pulses ISPOM",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy of 50% cost or Rs.15000",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Water carrying pipes",
+            "label": "Equipment"
+        },
+        {
+            "name": "Eligibility criteria",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Pipes carrying water from source to field - Pulses ISPOM",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Pipes carrying water from source to field - Pulses ISPOM",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Pipes carrying water from source to field - Pulses ISPOM",
+            "target": "Subsidy of 50% cost or Rs.15000",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Subsidy of 50% cost or Rs.15000",
+            "target": "Water carrying pipes",
+            "relation": "APPLIES_TO"
+        },
+        {
+            "source": "Pipes carrying water from source to field - Pulses ISPOM",
+            "target": "Eligibility criteria",
+            "relation": "REQUIRES"
+        }
+    ]
+}

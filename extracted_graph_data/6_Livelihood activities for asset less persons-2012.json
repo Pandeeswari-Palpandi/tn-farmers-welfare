@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Livelihood activities for asset less persons-2012",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Loan assistance",
+            "label": "Equipment"
+        },
+        {
+            "name": "Revolving Fund",
+            "label": "Equipment"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Livelihood activities for asset less persons-2012",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Livelihood activities for asset less persons-2012",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Livelihood activities for asset less persons-2012",
+            "target": "Subsidy",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Subsidy",
+            "target": "Loan assistance",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Subsidy",
+            "target": "Revolving Fund",
+            "relation": "REQUIRES"
+        }
+    ]
+}

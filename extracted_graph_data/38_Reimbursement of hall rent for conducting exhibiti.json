@@ -1,0 +1,37 @@
+{
+    "nodes": [
+        {
+            "name": "Reimbursement of hall rent for conducting exhibition by MSME Association",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Manufacturers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "50% on hall rent",
+            "label": "Subsidy"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Reimbursement of hall rent for conducting exhibition by MSME Association",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "TARGETS"
+        },
+        {
+            "source": "Reimbursement of hall rent for conducting exhibition by MSME Association",
+            "target": "Manufacturers",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Reimbursement of hall rent for conducting exhibition by MSME Association",
+            "target": "50% on hall rent",
+            "relation": "REQUIRES"
+        }
+    ]
+}

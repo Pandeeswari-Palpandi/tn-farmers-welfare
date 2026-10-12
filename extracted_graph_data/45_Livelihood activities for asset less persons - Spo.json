@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "name": "Livelihood activities for asset less persons - Sponsored By State Govt",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Loan assistance to Income Generation activities",
+            "label": "Equipment"
+        },
+        {
+            "name": "Revolving Fund to Self Help Groups",
+            "label": "Equipment"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Livelihood activities for asset less persons - Sponsored By State Govt",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "SPONSORED BY"
+        },
+        {
+            "source": "Livelihood activities for asset less persons - Sponsored By State Govt",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Livelihood activities for asset less persons - Sponsored By State Govt",
+            "target": "Subsidy",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Subsidy",
+            "target": "Loan assistance to Income Generation activities",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Subsidy",
+            "target": "Revolving Fund to Self Help Groups",
+            "relation": "REQUIRES"
+        }
+    ]
+}

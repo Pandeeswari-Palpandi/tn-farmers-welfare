@@ -1,0 +1,73 @@
+{
+    "nodes": [
+        {
+            "name": "Pipes carrying water from source to field",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "Subsidy",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Water carrying pipes",
+            "label": "Equipment"
+        },
+        {
+            "name": "Income eligibility",
+            "label": "Criterion"
+        },
+        {
+            "name": "Age eligibility",
+            "label": "Criterion"
+        },
+        {
+            "name": "Community eligibility",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Pipes carrying water from source to field",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "Pipes carrying water from source to field",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Pipes carrying water from source to field",
+            "target": "Subsidy",
+            "relation": "INCLUDES"
+        },
+        {
+            "source": "Subsidy",
+            "target": "Water carrying pipes",
+            "relation": "COVERS"
+        },
+        {
+            "source": "Pipes carrying water from source to field",
+            "target": "Income eligibility",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Pipes carrying water from source to field",
+            "target": "Age eligibility",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Pipes carrying water from source to field",
+            "target": "Community eligibility",
+            "relation": "REQUIRES"
+        }
+    ]
+}

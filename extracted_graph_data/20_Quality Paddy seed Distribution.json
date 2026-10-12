@@ -1,0 +1,82 @@
+{
+    "nodes": [
+        {
+            "name": "Quality Paddy seed Distribution",
+            "label": "Scheme"
+        },
+        {
+            "name": "Agriculture - Farmers Welfare Department",
+            "label": "Department"
+        },
+        {
+            "name": "Farmers",
+            "label": "Beneficiary"
+        },
+        {
+            "name": "5 per kg of certified paddy seeds",
+            "label": "Subsidy"
+        },
+        {
+            "name": "Agricultural Extension Centers",
+            "label": "Equipment"
+        },
+        {
+            "name": "Income",
+            "label": "Criterion"
+        },
+        {
+            "name": "Age From",
+            "label": "Criterion"
+        },
+        {
+            "name": "Age To",
+            "label": "Criterion"
+        },
+        {
+            "name": "Community",
+            "label": "Criterion"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "Quality Paddy seed Distribution",
+            "target": "Agriculture - Farmers Welfare Department",
+            "relation": "REQUIRES"
+        },
+        {
+            "source": "Quality Paddy seed Distribution",
+            "target": "Farmers",
+            "relation": "BENEFITS"
+        },
+        {
+            "source": "Quality Paddy seed Distribution",
+            "target": "5 per kg of certified paddy seeds",
+            "relation": "OFFERS"
+        },
+        {
+            "source": "5 per kg of certified paddy seeds",
+            "target": "Agricultural Extension Centers",
+            "relation": "USED_IN"
+        },
+        {
+            "source": "Quality Paddy seed Distribution",
+            "target": "Income",
+            "relation": "HAS_CRITERION"
+        },
+        {
+            "source": "Quality Paddy seed Distribution",
+            "target": "Age From",
+            "relation": "HAS_CRITERION"
+        },
+        {
+            "source": "Quality Paddy seed Distribution",
+            "target": "Age To",
+            "relation": "HAS_CRITERION"
+        },
+        {
+            "source": "Quality Paddy seed Distribution",
+            "target": "Community",
+            "relation": "HAS_CRITERION"
+        }
+    ]
+}
